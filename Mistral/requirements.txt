@@ -8,3 +8,9 @@ tqdm
 evaluate
 bitsandbytes
 xformer
+torch
+scikit-learn
+openpyxl
+seqeval 
+sentencepiece
+protobuf
