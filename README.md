@@ -21,5 +21,5 @@ source myenv/bin/activate
 1. Mistral 7B
 
 ```bash
-pip install Mistral/requirements.txt
+pip install -r Mistral/requirements.txt
 ```
