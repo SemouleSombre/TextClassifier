@@ -12,6 +12,11 @@ Create a python virtual environment and install the required dependancies
 ```bash
 python -m venv myenv
 ```
+Activate the virtual environment
+
+```bash
+source myenv/bin/activate
+```
 
 1. Mistral 7B
 
