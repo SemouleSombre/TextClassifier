@@ -20,6 +20,17 @@ source myenv/bin/activate
 
 1. Mistral 7B
 
+Go to the Mistral folder and run the following commands
+
 ```bash
-pip install -r Mistral/requirements.txt
+pip install -r requirements.txt
+```
+
+After installation, add your sentence to `run.sh` file and run the script `sh run.sh`.
+
+You can also directly run the inference in terminal with code below
+
+```python
+python classifier.py --model_name='mistralai/Mistral-7B-Instruct-v0.2' \
+                     --sentence="Ferme automatiquement les portes à l'heure prévue."
 ```
