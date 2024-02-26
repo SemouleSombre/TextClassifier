@@ -57,3 +57,12 @@ python train.py --model_name_or_path="camembert/camembert-base" \
 ```
 
 You can also directly run `sh run_training.sh` in your terminal.
+
+Once training, we can run inference as follows:
+
+```python
+from transformers import pipeline
+
+pipe = pipeline("text-classification", model="DioulaD/classificateur-intention_camembert")
+pipe("Ouvre la porte et fais vite stp")
+```
