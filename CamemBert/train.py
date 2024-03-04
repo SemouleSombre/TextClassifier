@@ -207,7 +207,7 @@ def main():
     elif target == 'Intention familière':
       return 1
     else:
-      return 0
+      return 2
 
   logger.info(f"Buildind dataset")
   df = read_data(args.data_folder_path)
