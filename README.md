@@ -1,3 +1,5 @@
+from [https://github.com/BirdiD/TextClassifier]
+
 # Classification with Mistral 7B vs CamemBERT
 
 In this repository, we will perform two classification tasks and compare them.
